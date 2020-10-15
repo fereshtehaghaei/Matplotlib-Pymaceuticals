@@ -181,5 +181,9 @@ Ceftamin potential outliers: []
 ```
 The correlation between mouse weight and the average tumor volume is 0.84
 ```
+## Scatter Plot
 
+- Generate a scatter plot of average tumor volume vs. mouse weight for the Capomulin regimen
+
+![](Images/Scatterplot.png)
 
