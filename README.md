@@ -115,9 +115,7 @@
 
 ## Pie Charts
 
-Generate a pie plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the distribution of female or male mice in the study.
-
-###### We need to create a DataFrame to group by 'Sex' column
+Generated a pie plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the distribution of female or male mice in the study.
 
 |        |  Sex |
 | -----: | ---: |
@@ -127,18 +125,19 @@ Generate a pie plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot
 
 ## Pie Graph(using pandas)
 
- Generate a pie plot showing the distribution of female versus male mice using pyplot
+ Generated a pie plot showing the distribution of female versus male mice using pyplot
 ![](Pymaceuticals/Images/PandaPieChart.png)
 
 ## Pie Graph (using pyplot)
 
-Generate a pie plot showing the distribution of female versus male mice using pyplot
+Generated a pie plot showing the distribution of female versus male mice using pyplot
 
 ![](Pymaceuticals/Images/PyplotPieChart.png)
 
 ## Quartiles, Outliers and Boxplots
 
-- In this section I need to calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
+- In this section, calculated the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. 
+- Then calculated the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
 
 |      | Mouse ID | Timepoint | Tumor Volume (mm3) | Metastatic Sites | Drug Regimen |    Sex | Age_months | Weight (g) |
 | ---: | -------: | --------: | -----------------: | ---------------: | -----------: | -----: | ---------: | ---------: |
@@ -164,25 +163,29 @@ Ceftamin potential outliers: []
 
 ## Box Plot
 
- Generate a box plot of the final tumor volume of each mouse across four regimens of interest
+ Generated a box plot of the final tumor volume of each mouse across four regimens of interest
 ![](Pymaceuticals/Images/BoxPlot.png)
 
 ## Line Plot
 
-- Generate a line plot of tumor volume vs. time point for a mouse treated with 'Capomulin'
+- Generated a line plot of tumor volume vs. time point for a mouse treated with 'Capomulin'
 
 ![](Pymaceuticals/Images/lineplot.png)
 
 
 ## Correlation Coefficient & Linear Regression
 
-- Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
+- Calculated the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
 ```
 The correlation between mouse weight and the average tumor volume is 0.84
 ```
 ## Scatter Plot
 
-- Generate a scatter plot of average tumor volume vs. mouse weight for the Capomulin regimen
+- Generated a scatter plot of average tumor volume vs. mouse weight for the Capomulin regimen
 
 ![](Pymaceuticals/Images/Scatterplot.png)
+
+### Copyright
+
+Fereshteh Aghaei © 2021. All Rights Reserved.
